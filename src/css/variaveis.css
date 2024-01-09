@@ -1,0 +1,9 @@
+:root {
+    --cor-primaria: #43bd8e;
+    --cor-branca: #fff;
+    --cor-fundo-escuro: #040203;    
+  }
+    
+  :root {
+    --mobile-padding: 30px;
+  }

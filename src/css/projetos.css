@@ -1,0 +1,95 @@
+.project-header{
+   background-color: #000;
+}
+
+.project-title{
+    text-align: center;
+    font-size: 5rem;
+    padding: 30px;
+    text-shadow: -4px 4px 9px rgba(0,0,0,1);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.project-container{
+    position: relative;
+    display: flex;
+    text-align: center;
+    height: 80vh;
+    background-color:#fff;
+}
+
+.project{
+    margin-top: 7%;
+    position: absolute;
+    height: 350px;
+    border: 15px ridge rgb(127,191,103);
+    border-radius: 30%;
+
+}
+
+.four:hover, .three:hover, .two:hover, .one:hover{
+    width: 40%;
+    height: 70%;
+    z-index: 1;
+    opacity: 0.9;
+    transform: rotate(-2deg);
+}
+.four{
+left: 45%;
+width: 40%;
+transition: transform 0.3s ease;
+}
+
+.three{
+    left: 33%;
+    width: 40%;
+    transition: transform 0.3s ease;
+    }
+
+.two{
+    left: 21%;
+    width: 40%;
+    transition: transform 0.3s ease;
+        }
+    
+.one{
+     left: 9%;
+     width: 40%;
+     transition: transform 0.3s ease;
+                }
+
+
+/*RESPONSIVE*/
+
+@media(max-width:785px){
+    .four:hover, .three:hover, .two:hover, .one:hover{
+        width: 55%;
+    }
+}
+
+@media(max-width:645px){
+    .four:hover, .three:hover, .two:hover, .one:hover{
+        width: 75%;
+    }
+
+    .four, .three, .two, .one{
+        left: 18%;
+        width: 60%;
+        height: 50%;
+    } 
+    .four{
+        bottom: 3%;
+        }
+        
+        .three{
+            bottom: 18%;
+            }
+        
+        .two{
+            bottom: 33%;
+                }
+            
+        .one{
+             bottom: 48%;
+                        }
+}

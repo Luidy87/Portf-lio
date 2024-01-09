@@ -1,0 +1,208 @@
+.image-container {
+    overflow: hidden;
+}
+
+.rotate {
+    animation: rotateAnimation 5s ease-in-out;
+}
+
+
+.header{
+    display: flex;
+    padding: var(--mobile-padding);
+    justify-content: center;
+    align-items: center;
+    min-width: 345px;
+    flex-direction: column;
+}
+
+
+
+.profile-info{
+text-align: center;
+text-shadow: -4px 4px 9px rgba(10,60,90,1);
+margin-top: 25px;
+}
+.profile-info span{
+    font-size: 6rem;
+}
+.profile-image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin-top: 10px;
+}
+
+
+.profile-image img{
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    transition: 0.3s ease;
+    animation: animacao-profile;
+    border: 10px ridge rgb(127,191,103);
+    background-color:black;
+}
+
+.profile-image img:hover{
+    opacity: 0.7;
+}
+
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+
+}
+
+.yellow{
+    color: yellow;
+}
+
+.blue{
+    color: blue;
+}
+
+/*ANIMAÇÕES*/
+
+.welcome h2{
+    width: 1000px;
+    margin-top: 10px;
+    font-size: 4rem;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    animation: typing 5s steps(30), blink 0.8s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    text-shadow: 0 0 100px lime 0 0 30px #ff0000;
+     -webkit-text-stroke: 1px lime;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
+
+.red {
+    animation: transition-color-red 3s ease-in-out infinite;
+    -webkit-animation: transition-color-red 2s 3s infinite alternate;
+   
+}
+
+.blue {
+    animation: transition-color 3s ease-in-out infinite;
+    -webkit-animation: transition-color-blue 3s 3s infinite alternate;
+}
+
+.yellow {
+    animation: transition-color 3s ease-in-out infinite;
+    -webkit-animation: transition-color-yellow 4s 3s infinite alternate;
+}
+
+.green {
+    animation: transition-color 3s ease-in-out infinite;
+    -webkit-animation: transition-color-green 5s 3s infinite alternate;
+}
+
+
+@keyframes animacao-profile{
+    from{ /*de*/
+        border-radius: 0px;
+        top: 0px;
+        bottom: 0px;
+    } 
+    to{/*para*/
+        border-radius: 300px;
+        top: 200px;
+        bottom: 200px;
+    } 
+}
+@keyframes transition-color-red {
+    from{
+        color: white;
+        top: 0px;
+        left: 0px;
+        -webkit-text-stroke: 2px white;
+    } 
+    to{
+        color: red;
+        top: 200px;
+        left: 200px;
+   
+    }  
+}
+
+@keyframes transition-color-yellow {
+    from{
+        color: white;
+        top: 0px;
+        left: 0px;
+        -webkit-text-stroke: 2px white;
+    } 
+    to{
+        color: yellow;
+        top: 200px;
+        left: 200px;
+    }  
+}
+
+@keyframes transition-color-blue {
+    from{
+        color: white;
+        top: 0px;
+        left: 0px;
+        -webkit-text-stroke: 2px white;
+    } 
+    to{
+        color: blue;
+        top: 200px;
+        left: 200px;
+    }  
+}
+
+@keyframes transition-color-green {
+    from{
+        color: white;
+        top: 0px;
+        left: 0px;
+        -webkit-text-stroke: 2px white;
+    } 
+    to{
+        color: green;
+        top: 200px;
+        left: 200px;
+    }  
+}
+
+
+
+/*RESPONSIVE*/
+
+@media(max-width:1035px){
+    .profile-info span, .welcome h2{
+        font-size: 3rem;
+    }
+    .welcome h2{
+        width: 450px
+    }
+}
+
+
+@media(max-width:500px){
+   .text{
+    margin-bottom: 90px;
+   }
+    .welcome h2{
+       display: none;
+    }
+}
+
+

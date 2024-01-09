@@ -1,0 +1,47 @@
+
+html {
+    font-size: 62.5%;
+    color: var(--cor-branca);
+    text-shadow: -4px 4px 9px rgba(0,0,0,1);
+font-family: 'Orbitron', sans-serif;
+  }
+  
+  body {
+    background-color: var(--cor-fundo-escuro);
+    font-family: var(--fonte-primaria);
+    font-size: var(--fonte-normal);
+    background: rgb(101,252,70);
+    background: linear-gradient(90deg, rgba(101,252,70,0.12041313107274154) 4%, rgba(70,78,191,0.1540265764508929) 22%, rgba(103,93,206,1) 86%, rgba(103,93,206,1) 96%);
+    background: rgb(10,23,06);
+    background: linear-gradient(90deg, rgba(10,23,06,1) 5%, rgba(70,78,191,0.1540265764508929) 47%, rgba(10,23,06,1) 95%);
+  }
+
+  .tijolo{
+    background-image: url('../imagens/TIJOLO_PNG.png');
+    background-repeat: repeat-x;
+    height: 178px;
+    width: 100%;
+}
+
+.tijolo-footer{
+  background-image: url('../imagens/TIJOLO_PNG.png');
+}
+
+
+.footer{
+  background-image: url('../imagens/TIJOLO_PNG.png');
+  background-repeat: repeat-x;
+  position: absolute;
+    bottom: 0;
+    height: 178px;
+    width: 100%;
+}
+
+.container{
+  background: rgb(127,191,103);
+  background: linear-gradient(90deg, rgba(127,191,103,1) 27%, rgba(100,191,70,0.2) 70%, rgba(95,206,93,1) 100%, rgba(183,252,70,0.4005251758906687) 100%);
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

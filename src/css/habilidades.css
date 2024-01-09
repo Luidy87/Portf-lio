@@ -1,0 +1,219 @@
+.habilidades .container-habilidades {    
+    text-align: center;    
+    display: flex;
+    justify-content: center;    
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.habilidades-title{
+    text-align: center;
+    font-size: 5rem;
+    padding: 30px;
+text-shadow: -4px 4px 9px rgba(0,0,0,1);
+font-family: 'Orbitron', sans-serif;
+background-color: black;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.logos{
+    width: 300px;
+    height: 200px;  
+}
+.logo{
+    border-radius: 15%;
+    border: 7px groove gold;
+    transition: 0.3s ease-out;
+    
+}
+
+.mario-one img,  .mario-two img, .mario-three img, .mario-four img, .mario-five img{
+    display: none;
+    position: absolute;
+}
+
+.allogos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    position: relative;
+    cursor: help;  
+}
+
+.text-habilidades p{
+    display: none;
+    position: absolute;
+}
+
+
+.logo:hover .text-habilidades p {
+  display: block;
+}
+
+
+.text-habilidades:hover p{
+    display: block;
+    right: 1px;
+    left: 2px;
+    font-size: 2rem;
+    top: -75px;
+    padding: 5px;
+    background-color: #000;
+    color:#228B22;
+    border-radius: 10px;
+    border: 2px double red;
+    }
+
+
+    .text-habilidades:hover .mario-one img,  .text-habilidades:hover .mario-two img, .text-habilidades:hover .mario-three img, .text-habilidades:hover .mario-four img {
+        display: block;
+        top: 57px;   
+        padding-left: 60px;  
+        height: 80%;   
+    }
+
+    .text-habilidades:hover .mario-five img{
+        display: block;
+      top: 230px;
+      padding-left: 60px;  
+      height: 80%;      
+    }
+
+.habilidades .container-habilidades .informacoes h3 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: var(--cor-primaria);      
+}
+
+.habilidades .container-habilidades .informacoes p {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.habilidades .container-habilidades .informacoes .logo i {
+    font-size: 7rem;
+    color: var(--cor-primaria); 
+}
+
+/*RESPONSIVE*/
+
+@media(max-width:1260px){
+    .text-habilidades:hover .mario-four img{
+        display: block;
+        top: 240px;
+             
+      }
+}
+
+@media(max-width:980px){
+    .logos{
+        width: 240px;
+        height: 150px;  
+    }
+    .text-habilidades:hover .mario-one img, .text-habilidades:hover .mario-two img, .text-habilidades:hover .mario-three img{
+        padding-left: 52px; 
+        top: 52px;  
+    }
+    .text-habilidades:hover .mario-four img, .text-habilidades:hover .mario-five img{
+        
+        top: 180px;  
+      }
+}
+
+@media(max-width:785px){
+    .logos{
+        width: 200px;
+        height: 120px;  
+    }   
+    .text-habilidades:hover .mario-one img,  .text-habilidades:hover .mario-two img,  .text-habilidades:hover .mario-three img{
+    top: 44px;   
+    padding-left: 47px; 
+    }
+    .text-habilidades:hover .mario-four img, .text-habilidades:hover .mario-five img{
+        top: 150px;
+        padding-left: 42px;
+    }
+    .text-habilidades:hover p{
+        margin-top: -25px;
+    }
+}
+
+@media(max-width:666px){
+    .text-habilidades:hover .mario-one img,  .text-habilidades:hover .mario-two img, .text-habilidades:hover .mario-three img, .text-habilidades:hover .mario-four img, .text-habilidades:hover .mario-five img  {
+        height: 60%;   
+    }  
+    .text-habilidades:hover .mario-three img{
+        top: 150px;
+        padding-left: 42px;   
+    }
+    .text-habilidades:hover .mario-five img {
+        top: 270px;
+        padding-left: 42px;     
+    }
+}
+
+@media(max-width:520px){
+    .logos{
+        width: 150px;
+        height: 100px;  
+    }
+
+    .text-habilidades:hover .mario-one img,  .text-habilidades:hover .mario-two img{
+        top: 25px;
+        padding-left: 25px;     
+    }
+    .text-habilidades:hover .mario-three img, .text-habilidades:hover .mario-four img{
+        top: 125px;
+        padding-left: 25px; 
+    }
+    .text-habilidades:hover .mario-five img {
+        top: 225px;
+        padding-left: 22px;     
+    }
+    .text-habilidades:hover p{
+        margin-top: -35px;
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:360px){
+    .text-habilidades:hover .mario-one img,  .text-habilidades:hover .mario-two img, .text-habilidades:hover .mario-three img, .text-habilidades:hover .mario-four img, .text-habilidades:hover .mario-five img  {
+        padding-left: 15px; 
+        height: 40%;   
+    }
+    .text-habilidades:hover .mario-two img{
+        top: 135px;   
+    }
+    .text-habilidades:hover .mario-three img{
+        top: 225px;   
+    }
+    .text-habilidades:hover .mario-four img{
+        top: 335px;   
+    }
+
+    .text-habilidades:hover .mario-five img{
+        top: 425px;   
+    }
+
+    .text-habilidades:hover p{
+        font-size: 1rem;
+        margin-top: -15px;
+    }
+}
+
+

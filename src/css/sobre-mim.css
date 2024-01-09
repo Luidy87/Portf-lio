@@ -1,0 +1,91 @@
+
+.sobre-mim-title{
+    text-align: center;
+    font-size: 5rem;
+    padding: 30px;
+    width: 100%;
+    background-color: black;
+}
+
+.sobre-mim-text p{
+    font-size: 2.5rem;
+   background-color:honeydew;
+   text-align: justify;
+   padding: 60px 180px;
+   color: black;
+   transition: 0.3 ease-in-out;
+   text-shadow: none;
+}
+
+.sobre-mim-text p:first-child::before{
+    content: url('../imagens/luigi.png')
+}
+
+.text{
+    color: 4rem;
+    font-weight: 600;
+}
+.luidy{
+    color:greenyellow;
+}
+
+.linguagens{
+    color: red;
+}
+
+.dev{
+    color:gold;
+}
+.curso{
+    color:blueviolet;
+}
+
+.frontendmentor{
+    color: dodgerblue;
+}
+
+.trabalho-pessoal{
+    color:darkslategrey;
+}
+
+.sobre-mim-text p:hover{
+    opacity: 0.9;
+}
+
+.paragrafo{
+    margin-right: 100px;
+}
+
+
+ @media(max-width:860px){
+    .sobre-mim-text p{
+       padding: 60px 100px;
+    } 
+    .text{
+        color: 3rem;
+}
+ }
+
+ @media(max-width:645px){
+    .sobre-mim-text p{
+       padding: 50px 70px;
+       font-size: 2rem;
+    } 
+    .text{
+        color: 2.5rem;
+}
+ }
+
+ @media(max-width:480px){
+    .sobre-mim-text p{
+       padding: 40px 40px;
+       font-size: 1.5rem;
+    } 
+    .text{
+        color: 2rem;
+    }
+    .paragrafo{
+    margin-right: 50px;
+}
+ }
+

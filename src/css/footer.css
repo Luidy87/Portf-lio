@@ -1,0 +1,28 @@
+.main-titles{
+    border: 15px solid #228B22;
+    background-color:black;
+    font-family: 'rubik doodle shadow';
+    font-size: 7rem;
+    text-align: center;
+    padding: 5px 20px;
+    border-top: 15px solid #ADFF2F;
+    border-bottom: 15px solid #ADFF2F;
+}
+
+.contact-itens{
+    display: flex;
+    opacity: 0.3s ease;
+}
+
+.contact-itens li{
+    opacity: 0.6;
+}
+.contact-itens li:hover{
+    opacity: 1;
+}
+
+@media(max-width: 500px){
+  .contact{
+    font-size: 4rem;
+}
+}

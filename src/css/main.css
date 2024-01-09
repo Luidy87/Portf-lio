@@ -1,0 +1,123 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -90px;
+  
+}
+
+.main-info{
+    display: flex;
+    width: 100vw;
+    gap: 50px;
+    justify-content: center;
+   
+}
+
+.main-container{
+    border: 15px solid #228B22;
+    background-color: black;
+    font-family: 'rubik doodle shadow';
+    font-size: 5.5rem;
+    text-align: center;
+    padding: 5px 20px;
+    border-top: 15px solid #ADFF2F;
+    border-bottom: 15px solid #ADFF2F;
+}
+
+.main-info-sobre-mim{
+color: #228B22;
+transition: 0.5s ease-in-out;
+}
+
+
+.main-info-sobre-mim:hover, .main-info-habilidades:hover, .main-info-projetos:hover, .main-info-contato:hover{
+    color: whitesmoke;
+    font-size: 7rem;
+}
+
+.main-info-habilidades{
+color: darkred;
+transition: 0.5s ease-in-out;
+}
+
+
+
+.main-info-projetos{
+   
+    color:darkgoldenrod;
+    transition: 0.5s ease-in-out;
+}
+
+.main-info-contato{
+    color:darkblue;
+    transition: 0.5s ease-in-out;
+}
+
+/*RESPONSIVE*/
+
+@media(max-width:1200px){
+    
+    .main-container{
+        font-size: 4.2rem;
+    }
+    .main-info-sobre-mim:hover, .main-info-habilidades:hover, .main-info-projetos:hover, .main-info-contato:hover{
+        font-size: 6rem;
+    }
+}
+@media(max-width:980px){
+   
+    .main-container{
+        font-size: 3rem;
+    }
+    .main-info-sobre-mim:hover, .main-info-habilidades:hover, .main-info-projetos:hover .main-info-contato:hover{
+        font-size: 4rem;
+    }
+}
+
+@media(max-width:800px){
+    .main-container{
+        font-size: 2.2rem;
+    }
+    .main-info-sobre-mim:hover, .main-info-habilidades:hover, .main-info-projetos:hover, .main-info-contato:hover{
+        font-size: 3.5rem;
+    }
+
+}
+@media(max-width:625px){
+    .main-container{
+        font-size: 1.8rem;
+    }
+    .main-info-sobre-mim:hover, .main-info-habilidades:hover, .main-info-projetos:hover{
+        font-size: 2.5rem;
+    }
+            } 
+         
+        
+ @media(max-width:500px){
+    
+    .main-container{
+        font-size: 1.2rem;
+        gap: 2px;
+    }
+    .main-info-sobre-mim:hover, .main-info-habilidades:hover, .main-info-projetos:hover, .main-info-contato:hover{
+        font-size: 1.8rem;
+    }
+  
+
+}
+
+@media(max-width:400px){
+    
+    .main-container{
+        font-size: 0.7rem;
+    }
+    .main-info-sobre-mim:hover, .main-info-habilidades:hover, .main-info-projetos:hover, .main-info-contato:hover{
+        font-size: 1.2rem;
+    }
+  
+
+}
+
+
