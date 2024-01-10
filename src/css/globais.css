@@ -20,7 +20,7 @@ font-family: 'Orbitron', sans-serif;
     background-image: url('../imagens/TIJOLO_PNG.png');
     background-repeat: repeat-x;
     height: 178px;
-    width: 100%;
+    width: 100vw;
 }
 
 .tijolo-footer{
@@ -34,7 +34,7 @@ font-family: 'Orbitron', sans-serif;
   position: absolute;
     bottom: 0;
     height: 178px;
-    width: 100%;
+    width: 100vw;
 }
 
 .container{

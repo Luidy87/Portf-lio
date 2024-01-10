@@ -78,19 +78,19 @@ transition: transform 0.3s ease;
 
 @media(max-width:645px){
     .four{
-        bottom: 7%;
+        bottom: 5%;
         }
         
         .three{
-            bottom: 24%;
+            bottom: 22%;
             }
         
         .two{
-            bottom: 37%;
+            bottom: 39%;
                 }
             
         .one{
-             bottom: 54%;
+             bottom: 56%;
                         }
         .four, .three, .two, .one{
             left: 10%;
