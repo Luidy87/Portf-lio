@@ -2,13 +2,7 @@
    background-color: #000;
 }
 
-.project-title{
-    text-align: center;
-    font-size: 5rem;
-    padding: 30px;
-    text-shadow: -4px 4px 9px rgba(0,0,0,1);
-    font-family: 'Orbitron', sans-serif;
-}
+
 
 .project-container{
     position: relative;
@@ -63,33 +57,49 @@ transition: transform 0.3s ease;
 
 @media(max-width:785px){
     .four:hover, .three:hover, .two:hover, .one:hover{
-        width: 55%;
+        width: 45%;
     }
-}
-
-@media(max-width:645px){
-    .four:hover, .three:hover, .two:hover, .one:hover{
-        width: 75%;
-    }
-
-    .four, .three, .two, .one{
-        left: 18%;
-        width: 60%;
-        height: 50%;
-    } 
     .four{
-        bottom: 3%;
+        left: 56%;
         }
         
         .three{
-            bottom: 18%;
+            left: 39%;
             }
         
         .two{
-            bottom: 33%;
+            left: 22%;
                 }
             
         .one{
-             bottom: 48%;
+             left: 5%;
+}
+}
+
+@media(max-width:645px){
+    .four{
+        bottom: 7%;
+        }
+        
+        .three{
+            bottom: 24%;
+            }
+        
+        .two{
+            bottom: 37%;
+                }
+            
+        .one{
+             bottom: 54%;
+                        }
+        .four, .three, .two, .one{
+            left: 10%;
+            width: 80%;
+            height: 40%;
+                        }  
+         .four:hover, .three:hover, .two:hover, .one:hover{
+            height: 50%;
+            width: 100%;
+            left: 0%;
                         }
 }

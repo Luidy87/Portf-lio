@@ -7,16 +7,6 @@
 }
 
 
-.habilidades-title{
-    text-align: center;
-    font-size: 5rem;
-    padding: 30px;
-text-shadow: -4px 4px 9px rgba(0,0,0,1);
-font-family: 'Orbitron', sans-serif;
-background-color: black;
-}
-
-
 .container{
     display: flex;
     align-items: center;
@@ -34,8 +24,7 @@ background-color: black;
 .logo{
     border-radius: 15%;
     border: 7px groove gold;
-    transition: 0.3s ease-out;
-    
+    transition: 0.3s ease-out;  
 }
 
 .mario-one img,  .mario-two img, .mario-three img, .mario-four img, .mario-five img{

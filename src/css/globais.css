@@ -45,3 +45,26 @@ font-family: 'Orbitron', sans-serif;
   justify-content: center;
   align-items: center;
 }
+
+.main-titles{
+  border: 15px solid #228B22;
+  background-color:black;
+  font-family: 'rubik doodle shadow';
+  font-size: 7rem;
+  text-align: center;
+  padding: 5px 20px;
+  border-top: 15px solid #ADFF2F;
+  border-bottom: 15px solid #ADFF2F;
+}
+
+@media(max-width:500px){
+  .main-titles{
+    font-size: 5rem;
+}
+}
+
+@media(max-width:400px){
+  .main-titles{
+    font-size: 3rem;
+}
+}

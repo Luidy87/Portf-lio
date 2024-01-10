@@ -78,45 +78,53 @@ transition: 0.5s ease-in-out;
 
 @media(max-width:800px){
     .main-container{
-        font-size: 2.2rem;
+        font-size: 2.8rem;
     }
     .main-info-sobre-mim:hover, .main-info-habilidades:hover, .main-info-projetos:hover, .main-info-contato:hover{
-        font-size: 3.5rem;
+        font-size: 3rem;
+    }
+    .main-info{
+        gap: 20px; 
     }
 
 }
 @media(max-width:625px){
     .main-container{
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
-    .main-info-sobre-mim:hover, .main-info-habilidades:hover, .main-info-projetos:hover{
-        font-size: 2.5rem;
+    .main-info-sobre-mim:hover, .main-info-habilidades:hover, .main-info-projetos:hover, .main-info-contato:hover{
+        font-size: 2.2rem;
     }
+    
             } 
          
         
  @media(max-width:500px){
     
     .main-container{
-        font-size: 1.2rem;
-        gap: 2px;
+        font-size: 1.5rem;
     }
     .main-info-sobre-mim:hover, .main-info-habilidades:hover, .main-info-projetos:hover, .main-info-contato:hover{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
+    }
+    .main-info{
+        gap: 10px; 
     }
   
 
 }
 
-@media(max-width:400px){
+@media(max-width:360px){
     
     .main-container{
-        font-size: 0.7rem;
+        font-size: 1.3rem;
     }
     .main-info-sobre-mim:hover, .main-info-habilidades:hover, .main-info-projetos:hover, .main-info-contato:hover{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
-  
+    .main-info{
+        gap: 5px; 
+    }
 
 }
 
